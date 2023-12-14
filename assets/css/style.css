@@ -1,3 +1,10 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
 .fa-bell{
     color: #ff8f00;
 }
@@ -5,4 +12,19 @@
 input[type="search"],
 div.input-group-text{
     background-color: #e5e5e5;
+}
+main{
+    height: calc(100vh - 58px);
+}
+aside{
+    height: 100%;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+}
+
+@media screen and (max-width:1200px) and (min-width:992px){
+    aside{
+        font-size: 80%;
+    }
+    
 }
