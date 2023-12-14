@@ -2,6 +2,7 @@
     color: #ff8f00;
 }
 
-input[type="search"]{
+input[type="search"],
+div.input-group-text{
     background-color: #e5e5e5;
 }
