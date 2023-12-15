@@ -2,6 +2,11 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+a:hover{
+    cursor: pointer;
 }
 
 
@@ -20,6 +25,10 @@ aside{
     height: 100%;
     background-image: url(../img/sidebar-bg.png);
     background-color: #051e34;
+}
+
+.main-top-left span{
+    background-color: #165bba;
 }
 
 @media screen and (max-width:1200px) and (min-width:992px){
