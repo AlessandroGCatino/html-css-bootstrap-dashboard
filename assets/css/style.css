@@ -25,6 +25,11 @@ main{
 main>div{
     overflow: auto;
 }
+
+.right-column{
+    height: fit-content;
+}
+
 aside{
     height: 100%;
     background-image: url(../img/sidebar-bg.png);
@@ -33,6 +38,10 @@ aside{
 
 .main-top-left span{
     background-color: #165bba;
+}
+
+#todo{
+    height: fit-content;
 }
 
 
