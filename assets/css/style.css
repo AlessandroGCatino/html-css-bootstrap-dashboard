@@ -19,7 +19,11 @@ div.input-group-text{
     background-color: #e5e5e5;
 }
 main{
-    height: calc(100vh - 58px);
+    height: calc(100vh - 54px);
+}
+
+main>div{
+    overflow: auto;
 }
 aside{
     height: 100%;
@@ -30,6 +34,7 @@ aside{
 .main-top-left span{
     background-color: #165bba;
 }
+
 
 @media screen and (max-width:1200px) and (min-width:992px){
     aside{
