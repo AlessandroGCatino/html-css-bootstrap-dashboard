@@ -9,6 +9,9 @@ a:hover{
     cursor: pointer;
 }
 
+aside li:hover{
+    background-color: #828f98;
+}
 
 .fa-bell{
     color: #ff8f00;
@@ -26,8 +29,13 @@ main>div{
     overflow: auto;
 }
 
-.right-column{
+.right-column,
+.offcanvas.offcanvas-end div{
     height: fit-content;
+}
+
+.offcanvas.offcanvas-end{
+    width: 700px;
 }
 
 aside{
@@ -45,9 +53,9 @@ aside{
 }
 
 
-@media screen and (max-width:1200px) and (min-width:992px){
-    aside{
-        font-size: 80%;
-    }
+@media screen and (max-width:1199px){
     
+    .offcanvas.offcanvas-end{
+        width: 100%;
+    }
 }
